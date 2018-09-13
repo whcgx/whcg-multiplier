@@ -1,20 +1,25 @@
 {
   "name": "@whcg/whcg-multiplier",
-  "version": "1.0.0",
+  "version": "1.2.0",
+  "description": "```html <whcg-multiplier></whcg-multiplier> ```",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
-  },
-  "author": "whcg",
-  "license": "ISC",
-  "description": "",
+ },
   "files": [
-    "dist"
-  ],
-  "devDependencies": {
-    "@polymer/polymer": "*"
+    "dist",
+    "theme"
+ ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcgx/whcg-multiplier.git"
   },
-  "dependencies": {}
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whcgx/whcg-multiplier/issues"
+  },
+  "homepage": "https://github.com/whcgx/whcg-multiplier#readme"
 }
