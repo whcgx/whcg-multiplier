@@ -34,20 +34,20 @@ export class WhcgMultiplier extends PolymerElement {
 
 
     _valuearrayChanged() {
-        console.log('this.valuearray');
-        console.log(this.valuearray);
-        console.log(JSON.parse(this.valuearray));
+        // console.log('this.valuearray');
+        // console.log(this.valuearray);
+        // console.log(JSON.parse(this.valuearray));
         let valuearrayobj = JSON.parse(this.valuearray);
 
         let product = valuearrayobj.reduce((acc, item) => {
             return acc * Number(item);
         }, 1);
 
-        console.log(product);
+        // console.log(product);
 
         this.valueoutput = product;
-		console.log('this.valueoutput!!');
-		console.log(this.valueoutput);
+		// console.log('this.valueoutput!!');
+		// console.log(this.valueoutput);
     }
 }
 
